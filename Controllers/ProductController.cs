@@ -11,8 +11,6 @@ namespace ProductManagementAPI.Controllers
     [ApiController]
 
 
-
-
     public class ProductController : ControllerBase
     {
 
@@ -24,6 +22,7 @@ namespace ProductManagementAPI.Controllers
         }
 
         [HttpGet("GetAllProducts")]
+        [Authorize]
         
 
         public IActionResult GetAllProducts()
@@ -42,7 +41,8 @@ namespace ProductManagementAPI.Controllers
         }
 
         [HttpGet("GetProductsItem")]
-        
+        [Authorize]
+
 
         public IActionResult GetAllProductsItem() 
         { 
@@ -64,7 +64,8 @@ namespace ProductManagementAPI.Controllers
         }
 
         [HttpGet("{id}")]
-       
+        [Authorize]
+
         public IActionResult GetProduct(int id)
         {
             var Product = _context.Product.FirstOrDefault(x => x.Id == id);
@@ -80,7 +81,8 @@ namespace ProductManagementAPI.Controllers
 
 
         [HttpPost("AddProduct")]
-        
+        [Authorize]
+
 
         public IActionResult AddProdut([FromBody] Product products)
         {
@@ -117,7 +119,8 @@ namespace ProductManagementAPI.Controllers
         }
 
         [HttpDelete]
-        
+        [Authorize]
+
         public IActionResult DeleteProduct([FromQuery]int id)
         {
             var product = _context.Product.FirstOrDefault(x => x.Id == id);
