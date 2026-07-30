@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\ProductManagementAPI.csproj": {}
+    "C:\\InternalProject\\ProductManagement\\ProductManagementAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\ProductManagementAPI.csproj": {
+    "C:\\InternalProject\\ProductManagement\\ProductManagementAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\ProductManagementAPI.csproj",
+        "projectUniqueName": "C:\\InternalProject\\ProductManagement\\ProductManagementAPI.csproj",
         "projectName": "ProductManagementAPI",
-        "projectPath": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\ProductManagementAPI.csproj",
-        "packagesPath": "C:\\Users\\siddarth.birajdar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\obj\\",
+        "projectPath": "C:\\InternalProject\\ProductManagement\\ProductManagementAPI.csproj",
+        "packagesPath": "C:\\Users\\soham.bawaskar\\.nuget\\packages\\",
+        "outputPath": "C:\\InternalProject\\ProductManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\siddarth.birajdar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\soham.bawaskar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
