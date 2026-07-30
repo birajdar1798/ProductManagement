@@ -43,7 +43,7 @@ namespace ProductManagementAPI.Controllers
         [HttpGet("GetProductsItem")]
         [Authorize]
 
-
+        // soham is not helping ne -- aghau soham
         public IActionResult GetAllProductsItem() 
         { 
             var Result = (from p in _context.Product
