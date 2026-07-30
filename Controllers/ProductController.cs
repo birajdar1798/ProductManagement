@@ -24,7 +24,7 @@ namespace ProductManagementAPI.Controllers
         [HttpGet("GetAllProducts")]
         [Authorize]
         
-
+        
         public IActionResult GetAllProducts()
         {
             var products = _context.Product.ToList();
