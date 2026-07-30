@@ -11,7 +11,7 @@ namespace ProductManagementAPI.Controllers
     [ApiController]
 
 
-    public class ProductController : ControllerBase
+    public class ProductController : ControllerBase 
     {
 
         private readonly ApplicationDbContext _context;
@@ -22,8 +22,8 @@ namespace ProductManagementAPI.Controllers
         }
 
         [HttpGet("GetAllProducts")]
-        [Authorize]
-        
+
+        //https 7356 /api/Product/GetAllProducts
 
         public IActionResult GetAllProducts()
         {
@@ -64,7 +64,6 @@ namespace ProductManagementAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        [Authorize]
 
         public IActionResult GetProduct(int id)
         {
@@ -81,17 +80,26 @@ namespace ProductManagementAPI.Controllers
 
 
         [HttpPost("AddProduct")]
-        [Authorize]
-
-
         public IActionResult AddProdut([FromBody] Product products)
         {
-            products.CreatedOn = DateTime.Now;
-            products.ModifiedOn = null;
-            _context.Product.Add(products);
-            _context.SaveChanges();
-            return Ok(products);
+            //var Product = _context.Product.ToList();
+            var Product = _context.Product.FirstOrDefault(x => x.ProductName == products.ProductName);
+            if (Product == null)
+            {
+                products.CreatedOn = DateTime.Now;
+                products.ModifiedOn = null;
+                _context.Product.Add(products);
+                _context.SaveChanges();
+                return Ok(true);
+
+            }
+            else
+            {
+                return Ok(false);
+            }
         }
+
+    
 
         [HttpPut("{id}")]
 
@@ -119,7 +127,6 @@ namespace ProductManagementAPI.Controllers
         }
 
         [HttpDelete]
-        [Authorize]
 
         public IActionResult DeleteProduct([FromQuery]int id)
         {

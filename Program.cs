@@ -63,7 +63,31 @@ namespace ProductManagementAPI
                     builder.Configuration.GetConnectionString("DefaultConnection"));
             });
             builder.Services.AddScoped<JwtService>();
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowNextApp",
+                    policy =>
+                    {
+                        policy.WithOrigins("http://localhost:3000")
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
+                    });
+            });
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowFrontend",
+                    policy =>
+                    {
+                        policy.WithOrigins("http://localhost:3000")
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
+                    });
+            });
+
             var app = builder.Build();
+            app.UseCors("AllowFrontend");
+            app.UseCors("AllowNextApp");
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -77,8 +101,8 @@ namespace ProductManagementAPI
 
 
 
-            app.UseHttpsRedirection();
-            builder.Services.AddAuthorization();
+           // app.UseHttpsRedirection();
+           // builder.Services.AddAuthorization();
             app.UseAuthentication();
 
             app.UseAuthorization();
