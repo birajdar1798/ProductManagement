@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\productmanagementapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:productmanagementapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\dto\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:dto\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\productmanagementapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:productmanagementapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -54,22 +58,24 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductManagementAPI",
-              "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\ProductManagementAPI.csproj",
-              "RelativeDocumentMoniker": "ProductManagementAPI.csproj",
-              "ToolTip": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\ProductManagementAPI.csproj",
-              "RelativeToolTip": "ProductManagementAPI.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-26T16:31:21.29Z"
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T09:40:19.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -79,7 +85,7 @@
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-23T18:29:41.692Z",
               "EditorCaption": ""
@@ -87,6 +93,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductManagementAPI",
+              "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\ProductManagementAPI.csproj",
+              "RelativeDocumentMoniker": "ProductManagementAPI.csproj",
+              "ToolTip": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\ProductManagementAPI.csproj",
+              "RelativeToolTip": "ProductManagementAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-26T16:31:21.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -99,20 +117,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Dto\\Product.cs",
               "RelativeDocumentMoniker": "Dto\\Product.cs",
               "ToolTip": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Dto\\Product.cs",
               "RelativeToolTip": "Dto\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T16:08:22.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T16:08:22.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -120,8 +137,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T12:07:50.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-24T12:07:50.03Z"
             },
             {
               "$type": "Document",
@@ -137,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AuthControllerController.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Controllers\\AuthControllerController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthControllerController.cs",
@@ -149,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",

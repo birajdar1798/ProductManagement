@@ -40,6 +40,24 @@ namespace ProductManagementAPI.Controllers
             }
         }
 
+        [HttpGet("GetLatest")]
+        public IActionResult GetLatest()
+        {
+            var products = _context.Product.ToList();
+
+            if (products.Count > 0)
+            {
+                return Ok(products);
+
+            }
+            else
+            {
+                return Ok("No data Available");
+            }
+        }
+
+        
+
         [HttpGet("GetProductsItem")]
         [Authorize]
 
