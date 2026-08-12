@@ -12,7 +12,7 @@ namespace ProductManagementAPI.Controllers
 
     //Test comment to commit code
 
-    public class ProductController : ControllerBase
+    public class ProductController : ControllerBase 
     {
 
         private readonly ApplicationDbContext _context;
@@ -26,6 +26,9 @@ namespace ProductManagementAPI.Controllers
         [Authorize]
         
         
+
+        //https 7356 /api/Product/GetAllProducts
+
         public IActionResult GetAllProducts()
         {
             var products = _context.Product.ToList();
@@ -40,6 +43,24 @@ namespace ProductManagementAPI.Controllers
                 return Ok("No data Available");
             }
         }
+
+        [HttpGet("GetLatest")]
+        public IActionResult GetLatest()
+        {
+            var products = _context.Product.ToList();
+
+            if (products.Count > 0)
+            {
+                return Ok(products);
+
+            }
+            else
+            {
+                return Ok("No data Available");
+            }
+        }
+
+        
 
         [HttpGet("GetProductsItem")]
         [Authorize]
@@ -65,7 +86,6 @@ namespace ProductManagementAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        [Authorize]
 
         public IActionResult GetProduct(int id)
         {
@@ -82,17 +102,26 @@ namespace ProductManagementAPI.Controllers
 
 
         [HttpPost("AddProduct")]
-        [Authorize]
-
-
         public IActionResult AddProdut([FromBody] Product products)
         {
-            products.CreatedOn = DateTime.Now;
-            products.ModifiedOn = null;
-            _context.Product.Add(products);
-            _context.SaveChanges();
-            return Ok(products);
+            //var Product = _context.Product.ToList();
+            var Product = _context.Product.FirstOrDefault(x => x.ProductName == products.ProductName);
+            if (Product == null)
+            {
+                products.CreatedOn = DateTime.Now;
+                products.ModifiedOn = null;
+                _context.Product.Add(products);
+                _context.SaveChanges();
+                return Ok(true);
+
+            }
+            else
+            {
+                return Ok(false);
+            }
         }
+
+    
 
         [HttpPut("{id}")]
 
@@ -120,7 +149,6 @@ namespace ProductManagementAPI.Controllers
         }
 
         [HttpDelete]
-        [Authorize]
 
         public IActionResult DeleteProduct([FromQuery]int id)
         {
