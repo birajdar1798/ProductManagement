@@ -17,24 +17,8 @@
   },
   {
     "ContainingType": "ProductManagementAPI.Controllers.ProductController",
-    "Method": "DeleteProduct",
-    "RelativePath": "api/Product",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ProductManagementAPI.Controllers.ProductController",
     "Method": "GetProduct",
-    "RelativePath": "api/Product/{id}",
+    "RelativePath": "api/Product",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -42,7 +26,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -70,7 +54,23 @@
   },
   {
     "ContainingType": "ProductManagementAPI.Controllers.ProductController",
-    "Method": "AddProdut",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Product/{ids}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductManagementAPI.Controllers.ProductController",
+    "Method": "AddProduct",
     "RelativePath": "api/Product/AddProduct",
     "HttpMethod": "POST",
     "IsController": true,
@@ -96,8 +96,28 @@
   },
   {
     "ContainingType": "ProductManagementAPI.Controllers.ProductController",
+    "Method": "GetLatest",
+    "RelativePath": "api/Product/GetLatest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductManagementAPI.Controllers.ProductController",
     "Method": "GetAllProductsItem",
     "RelativePath": "api/Product/GetProductsItem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductManagementAPI.Controllers.ProductController",
+    "Method": "GetProduct",
+    "RelativePath": "api/Product/test",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

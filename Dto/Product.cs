@@ -13,5 +13,9 @@
         public string ModifiedBy {  get; set; }
 
         public DateTime? ModifiedOn { get; set; }
+
+        public int Price { get; set; }
+
+        public bool IsActive { get; set; }
     }
 }

@@ -48,6 +48,18 @@
         }
       }
     },
+    "/api/Product/GetLatest": {
+      "get": {
+        "tags": [
+          "Product"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Product/GetProductsItem": {
       "get": {
         "tags": [
@@ -60,7 +72,7 @@
         }
       }
     },
-    "/api/Product/{id}": {
+    "/api/Product": {
       "get": {
         "tags": [
           "Product"
@@ -68,8 +80,7 @@
         "parameters": [
           {
             "name": "id",
-            "in": "path",
-            "required": true,
+            "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -81,7 +92,40 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Product/AddProduct": {
+      "post": {
+        "tags": [
+          "Product"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Product/{id}": {
       "put": {
         "tags": [
           "Product"
@@ -123,30 +167,21 @@
         }
       }
     },
-    "/api/Product/AddProduct": {
-      "post": {
+    "/api/Product/{ids}": {
+      "delete": {
         "tags": [
           "Product"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Product"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Product"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Product"
-              }
+        "parameters": [
+          {
+            "name": "ids",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -154,20 +189,10 @@
         }
       }
     },
-    "/api/Product": {
-      "delete": {
+    "/api/Product/test": {
+      "get": {
         "tags": [
           "Product"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
         ],
         "responses": {
           "200": {
@@ -233,6 +258,13 @@
             "type": "string",
             "format": "date-time",
             "nullable": true
+          },
+          "price": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isActive": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
