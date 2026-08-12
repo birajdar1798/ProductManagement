@@ -10,6 +10,7 @@ namespace ProductManagementAPI.Controllers
     [Route("api/[controller]")]
     [ApiController]
 
+    //Test comment to commit code
 
     public class ProductController : ControllerBase 
     {
@@ -22,6 +23,9 @@ namespace ProductManagementAPI.Controllers
         }
 
         [HttpGet("GetAllProducts")]
+        [Authorize]
+        
+        
 
         //https 7356 /api/Product/GetAllProducts
 
