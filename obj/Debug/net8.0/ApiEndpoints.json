@@ -16,6 +16,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ProductManagementAPI.Controllers.ItemController",
+    "Method": "AddItems",
+    "RelativePath": "api/Item/AddItems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "ProductManagementAPI.Dto.Item",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductManagementAPI.Controllers.ItemController",
+    "Method": "GetAllItems",
+    "RelativePath": "api/Item/GetAllItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProductManagementAPI.Controllers.ProductController",
     "Method": "GetProduct",
     "RelativePath": "api/Product",
