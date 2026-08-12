@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\InternalProject\\ProductManagement\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\internalproject\\productmanagement\\dto\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:dto\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\services\\getproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:services\\getproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +27,6 @@
       "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
 =======
-      "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\internalproject\\productmanagement\\dto\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:dto\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\internalproject\\productmanagement\\dto\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:dto\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -95,8 +91,12 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-<<<<<<< HEAD
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "TestClass.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Services\\TestClass.cs",
@@ -106,52 +106,23 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T09:56:36.542Z",
-=======
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\InternalProject\\ProductManagement\\Dto\\Product.cs",
-              "RelativeDocumentMoniker": "Dto\\Product.cs",
-              "ToolTip": "C:\\InternalProject\\ProductManagement\\Dto\\Product.cs",
-              "RelativeToolTip": "Dto\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T13:28:14.532Z",
->>>>>>> 6ce89f09e4a897d9232506906d52a9e74f9190e9
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "GetProducts.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Services\\GetProducts.cs",
               "RelativeDocumentMoniker": "Services\\GetProducts.cs",
-              "ToolTip": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Services\\GetProducts.cs*",
-              "RelativeToolTip": "Services\\GetProducts.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Services\\GetProducts.cs",
+              "RelativeToolTip": "Services\\GetProducts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T09:46:27.49Z",
-=======
-              "DocumentIndex": 2,
-              "Title": "ItemController.cs",
-              "DocumentMoniker": "C:\\InternalProject\\ProductManagement\\Controllers\\ItemController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ItemController.cs",
-              "ToolTip": "C:\\InternalProject\\ProductManagement\\Controllers\\ItemController.cs",
-              "RelativeToolTip": "Controllers\\ItemController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T13:00:05.112Z",
->>>>>>> 6ce89f09e4a897d9232506906d52a9e74f9190e9
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Dto\\Product.cs",
@@ -174,22 +145,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-07-26T16:30:56.867Z",
-=======
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\InternalProject\\ProductManagement\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\InternalProject\\ProductManagement\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T12:20:37.561Z",
->>>>>>> 6ce89f09e4a897d9232506906d52a9e74f9190e9
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Program.cs",
@@ -197,18 +156,8 @@
               "ToolTip": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAMAAAAAAAAAA==",
-=======
-              "DocumentIndex": 0,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\InternalProject\\ProductManagement\\Dto\\Item.cs",
-              "RelativeDocumentMoniker": "Dto\\Item.cs",
-              "ToolTip": "C:\\InternalProject\\ProductManagement\\Dto\\Item.cs",
-              "RelativeToolTip": "Dto\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
->>>>>>> 6ce89f09e4a897d9232506906d52a9e74f9190e9
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T12:20:34.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-24T12:07:50.03Z"
             },
             {
               "$type": "Document",
@@ -218,13 +167,25 @@
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAADwv8gAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAgwLoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-23T18:29:41.692Z",
+=======
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\InternalProject\\ProductManagement\\Dto\\Product.cs",
+              "RelativeDocumentMoniker": "Dto\\Product.cs",
+              "ToolTip": "C:\\InternalProject\\ProductManagement\\Dto\\Product.cs",
+              "RelativeToolTip": "Dto\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:28:14.532Z",
+>>>>>>> 6ce89f09e4a897d9232506906d52a9e74f9190e9
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 7,
               "Title": "ProductManagementAPI.http",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\ProductManagementAPI.http",
@@ -238,7 +199,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-<<<<<<< HEAD
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -269,11 +229,35 @@
               "ToolTip": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Controllers\\AuthControllerController.cs",
               "RelativeToolTip": "Controllers\\AuthControllerController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAgAAAARAAAAAAAAAA==",
+=======
+              "DocumentIndex": 2,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\InternalProject\\ProductManagement\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemController.cs",
+              "ToolTip": "C:\\InternalProject\\ProductManagement\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "Controllers\\ItemController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T12:41:34.728Z"
+              "WhenOpened": "2026-08-12T13:00:05.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\InternalProject\\ProductManagement\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\InternalProject\\ProductManagement\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+>>>>>>> 6ce89f09e4a897d9232506906d52a9e74f9190e9
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:20:37.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 10,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\appsettings.Development.json",
@@ -284,6 +268,20 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-07-27T06:08:48.204Z"
 =======
+              "DocumentIndex": 0,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\InternalProject\\ProductManagement\\Dto\\Item.cs",
+              "RelativeDocumentMoniker": "Dto\\Item.cs",
+              "ToolTip": "C:\\InternalProject\\ProductManagement\\Dto\\Item.cs",
+              "RelativeToolTip": "Dto\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T12:20:34.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\InternalProject\\ProductManagement\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
