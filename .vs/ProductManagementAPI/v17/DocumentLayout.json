@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\dto\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:dto\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\dto\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:dto\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\dto\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|solutionrelative:dto\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13EB10AD-82B2-4938-B6C4-B66F9D741F88}|ProductManagementAPI.csproj|c:\\users\\siddarth.birajdar\\source\\repos\\productmanagementapi\\interface\\itest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +86,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Dto\\Item.cs",
+              "RelativeDocumentMoniker": "Dto\\Item.cs",
+              "ToolTip": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Dto\\Item.cs",
+              "RelativeToolTip": "Dto\\Item.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:49:10.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "Controllers\\ItemController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADgvzAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:48:36.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GetProducts.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Services\\GetProducts.cs",
               "RelativeDocumentMoniker": "Services\\GetProducts.cs",
@@ -90,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -102,19 +134,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAADwv2oAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAuwMcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T18:29:41.692Z"
+              "WhenOpened": "2026-07-23T18:29:41.692Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TestClass.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Services\\TestClass.cs",
               "RelativeDocumentMoniker": "Services\\TestClass.cs",
@@ -126,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -138,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Dto\\Product.cs",
               "RelativeDocumentMoniker": "Dto\\Product.cs",
@@ -146,12 +179,11 @@
               "RelativeToolTip": "Dto\\Product.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAowAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T16:08:22.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T16:08:22.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -163,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Itest.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Interface\\Itest.cs",
               "RelativeDocumentMoniker": "Interface\\Itest.cs",
@@ -175,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ProductManagementAPI.http",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\ProductManagementAPI.http",
               "RelativeDocumentMoniker": "ProductManagementAPI.http",
@@ -187,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -199,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -211,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AuthControllerController.cs",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\Controllers\\AuthControllerController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthControllerController.cs",
@@ -223,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\siddarth.birajdar\\source\\repos\\ProductManagementAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
