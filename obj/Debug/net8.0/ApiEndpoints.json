@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "ProductManagementAPI.Controllers.ItemController",
+    "Method": "DeleteItem",
+    "RelativePath": "api/Item",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductManagementAPI.Controllers.ItemController",
     "Method": "AddItems",
     "RelativePath": "api/Item/AddItems",
     "HttpMethod": "POST",
