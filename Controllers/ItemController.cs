@@ -65,7 +65,7 @@ namespace ProductManagementAPI.Controllers
 
             if (item == null)
             {
-               return NotFound("Item with id do not exists.");
+                return NotFound("Item with id do not exists.");
             }
             else
             {
@@ -74,5 +74,22 @@ namespace ProductManagementAPI.Controllers
                 return Ok("Item Deleted Successfully");
             }
         }
+
+        [HttpGet("getItemById")]
+
+        public IActionResult getItemById([FromQuery] int id)
+        {
+            var item = _context.Item.FirstOrDefault(item => item.Id == id);
+            if(item == null)
+            {
+                return BadRequest("Item does not exists for id");
+            }
+            else
+            {
+                return Ok(item);
+            }
+
+        }
+
     }
 }

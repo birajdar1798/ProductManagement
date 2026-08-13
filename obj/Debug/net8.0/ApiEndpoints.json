@@ -58,6 +58,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ProductManagementAPI.Controllers.ItemController",
+    "Method": "getItemById",
+    "RelativePath": "api/Item/getItemById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProductManagementAPI.Controllers.ProductController",
     "Method": "DeleteProduct",
     "RelativePath": "api/Product",
