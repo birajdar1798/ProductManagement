@@ -54,8 +54,42 @@ namespace ProductManagementAPI.Controllers
                 return Ok(false);
             }
 
+        }
 
+        [HttpDelete]
+
+        public IActionResult DeleteItem([FromQuery] int id)
+        {
+
+            var item = _context.Item.FirstOrDefault(item => item.Id == id);
+
+            if (item == null)
+            {
+                return NotFound("Item with id do not exists.");
+            }
+            else
+            {
+                _context.Item.Remove(item);
+                _context.SaveChanges();
+                return Ok("Item Deleted Successfully");
+            }
+        }
+
+        [HttpGet("getItemById")]
+
+        public IActionResult getItemById([FromQuery] int id)
+        {
+            var item = _context.Item.FirstOrDefault(item => item.Id == id);
+            if(item == null)
+            {
+                return BadRequest("Item does not exists for id");
+            }
+            else
+            {
+                return Ok(item);
+            }
 
         }
+
     }
 }
